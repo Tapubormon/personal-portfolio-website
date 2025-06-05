@@ -1,0 +1,41 @@
+
+.slick_marquee_slider{
+    margin-top: 4rem;
+}
+
+.stripe, .stripe2{
+    overflow: hidden;
+    width: 100%;
+}
+
+.cnt{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.cnt img{
+    width: 7rem;
+    height: 7rem;
+    background-position: center;
+    background-size: cover;
+    object-fit:contain;
+    /* box-shadow:0 2px 8px rgba(0,0,0,0.25); */
+    padding: 5px;
+}
+
+.elem, .elem2{
+    /* display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 20px; */
+    padding: 0 2vw;
+
+}
+
+/* .photo{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 10px;
+    background-color: green;
+} */

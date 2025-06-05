@@ -1,0 +1,31 @@
+.typewriter_effect {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.typewriter_effect span.typed-text {
+    background-image: linear-gradient(to right, #04dd88, #00de96, #00dfa4, #0ce0b0, #23e1bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.typewriter_effect span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.typewriter_effect span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}

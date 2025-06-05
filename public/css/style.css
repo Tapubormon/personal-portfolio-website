@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("utilites.css");
+@import url("scrollbar.css");
+@import url("typewriter.css");
+@import url("scrollpy.css");
+@import url("skills_card.css");
+@import url("slick_marquee.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container-fluid {
+  padding: 0% 5%;
+}
+
+.nav_logo_link_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_logo {
+  height: 2.3rem;
+  margin-right: 5px;
+}
+
+.navbar_logo_text {
+  font-size: 1.7rem;
+}
+
+.navbar_nav_liks {
+  color: #525252;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navbar_nav_liks:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* .hero_bg_gradient{
+    position: relative;
+} */
+
+.hero {
+  padding-bottom: 2rem;
+}
+
+.hero_gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.hero_title_content {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.hero_title_content .name_hl {
+  background-image: linear-gradient(
+    to right,
+    #04dd88,
+    #00de96,
+    #00dfa4,
+    #0ce0b0,
+    #23e1bb
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.hero_description_content {
+  max-width: 90%;
+  line-height: 1.7;
+  font-size: 1.2rem;
+  color: #636363;
+  margin-bottom: 2rem;
+}
+
+.hero_image {
+  width: 100%;
+  border-radius: 40%;
+}
+
+/* About section start */
+section.about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about_left_section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about_left_section img{
+  width: 75%;
+}
+
+.section_title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.section_title span {
+  background-image: linear-gradient(
+    to right,
+    #04dd88,
+    #00de96,
+    #00dfa4,
+    #0ce0b0,
+    #23e1bb
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.personal_info h4 {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.personal_info_title h4 {
+  font-weight: 700;
+}
+
+.personal_info_title_details h4 {
+  color: #8f8f8f;
+}
+
+.personal_quotes {
+  color: #696969;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.counter {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#count1 {
+  background-image: linear-gradient(
+    to right,
+    #04dd88,
+    #00de96,
+    #00dfa4,
+    #0ce0b0,
+    #23e1bb
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Progress bar start */
+.progress_bar_wrapper{
+  padding-top: 4rem;
+}
+
+.progress_container{
+  width: 100%;
+  height: 1rem;
+  background-color: #dbfff3;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.progress_bar{
+  width: 0%;
+  height: 100%;
+  background-image: linear-gradient(to right, #04dd88, #00de96, #00dfa4, #0ce0b0, #23e1bb);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 8px;
+  transition: width 1.3s ease-in-out;
+}
+
+.percentage{
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
+}
+
+/* progress bar end */
+
+.skills_title{
+  color: #04dd88;
+  margin-bottom: 1.8rem;
+}
+
+.skills_info_Wrap{
+  border-bottom: 1px solid #bdbdbd85;
+  margin-bottom: 2.2rem;
+}
+
+.style_icon{
+  width: 15%;
+}
+
+.skills_info{
+  width: auto;
+}
+
+.style_icon i{
+  font-size: 1.5rem;
+  background: #02c778;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+
+
+/* My Project Showcase */
+
+.projectShowcaseWrapper{
+  width: 100%;
+  height: 500px;
+  background-color: #02c778;
+}

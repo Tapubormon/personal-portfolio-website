@@ -1,0 +1,54 @@
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex1 {
+  flex: 1;
+}
+
+.custom_btn {
+  background-image: linear-gradient(
+    to right,
+    #04dd88,
+    #00de96,
+    #00dfa4,
+    #0ce0b0,
+    #23e1bb
+  );
+  color: #ffffff;
+  padding: 0.6rem 0.11rem;
+  border: 0;
+  border-radius: 8px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom_btn:active,
+.custom_btn:hover {
+  outline: 0;
+}
+
+.custom_btn span {
+  background-color: #000000;
+  padding: 0.48rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.custom_btn:hover {
+  box-shadow: 0px 0.3px 5px 0.1px #04dd88, 0px 0px 2px 0.1px #00de96,
+    0px 0.3px 0px 0.1px #00dfa4, 0px 0px 1px 0.1px #0ce0b0;
+}
