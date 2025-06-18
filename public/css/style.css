@@ -5,6 +5,7 @@
 @import url("scrollpy.css");
 @import url("skills_card.css");
 @import url("slick_marquee.css");
+@import url("project_gallery.css");
 
 * {
   padding: 0;
@@ -232,10 +233,3 @@ section.about {
 
 
 
-/* My Project Showcase */
-
-.projectShowcaseWrapper{
-  width: 100%;
-  height: 500px;
-  background-color: #02c778;
-}
