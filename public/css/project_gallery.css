@@ -91,7 +91,7 @@
   background-color: rgba(0, 0, 0, 0.582);
   color: white;
   padding: 0px 10px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 7px;
@@ -103,6 +103,7 @@
   font-size: 12px;
   font-weight: 600;
   z-index: 3;
+  white-space: nowrap; 
 }
 
 .svg-icon-bar {
@@ -159,6 +160,22 @@
   grid-row: 2;
 }
 
+.des_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.project_showcase_description{
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  width: 55%;
+}
+
 @media (max-width: 900px) {
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -169,3 +186,5 @@
     grid-template-columns: 1fr;
   }
 }
+
+

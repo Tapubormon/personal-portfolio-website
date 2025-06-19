@@ -14,6 +14,19 @@
   flex: 1;
 }
 
+.highlishter{
+    background-image: linear-gradient(
+    to right,
+    #04dd88,
+    #00de96,
+    #00dfa4,
+    #0ce0b0,
+    #23e1bb
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .custom_btn {
   background-image: linear-gradient(
     to right,

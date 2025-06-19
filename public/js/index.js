@@ -116,11 +116,11 @@ const animatedProgressbar = (targetWidth, progressbar) => {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  animatedProgressbar(30, 'progressbar1')
-  animatedProgressbar(50, 'progressbar2')
+  animatedProgressbar(95, 'progressbar1')
+  animatedProgressbar(97, 'progressbar2')
   animatedProgressbar(100, 'progressbar3')
-  animatedProgressbar(80, 'progressbar4')
-  animatedProgressbar(75, 'progressbar5')
+  animatedProgressbar(100, 'progressbar4')
+  animatedProgressbar(100, 'progressbar5')
 })
 
 
